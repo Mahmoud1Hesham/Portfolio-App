@@ -5,6 +5,12 @@ import WaterWaveWrapper from "@/components/visualEffects/water-wave-wrapper";
 import { IoHome } from "react-icons/io5";
 import { SiGraphite } from "react-icons/si";
 import { MdOutlineRocketLaunch } from "react-icons/md";
+import Input from "@/components/ui/input";
+import { FaCircleInfo } from "react-icons/fa6";
+import Textarea from "@/components/ui/textarea";
+import Profile from "@/components/ui/profile";
+import FancyButton from "@/components/ui/fansy-button";
+import { FaArrowRightLong } from "react-icons/fa6";
 export default function Home() {
   return <>
 
@@ -28,6 +34,14 @@ export default function Home() {
             <MdOutlineRocketLaunch />
             Google
             </Button>
+            </div>
+            <Input type="text" placeholder="Your Name" />
+            <Input type="text" placeholder="Your Info" icon={<FaCircleInfo />}/>
+            <Textarea placeholder="Your opinon"/>
+            <Textarea placeholder="Your opinon" icon={<FaCircleInfo />}/>
+            <Profile/>
+            <div className="w-[350px]">
+            <FancyButton text="Contact us" icon={<FaArrowRightLong />} />
             </div>
           </Card>
         </div>
