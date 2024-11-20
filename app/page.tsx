@@ -11,6 +11,9 @@ import Textarea from "@/components/ui/textarea";
 import Profile from "@/components/ui/profile";
 import FancyButton from "@/components/ui/fansy-button";
 import { FaArrowRightLong } from "react-icons/fa6";
+import LiveClock from "@/components/ui/liveclock";
+import MagneticWrapper from "@/components/visualEffects/magnetic-effect-wrapper";
+import ScrollDown from "@/components/ui/scroll-down";
 export default function Home() {
   return <>
 
@@ -40,9 +43,13 @@ export default function Home() {
             <Textarea placeholder="Your opinon"/>
             <Textarea placeholder="Your opinon" icon={<FaCircleInfo />}/>
             <Profile/>
-            <div className="w-[350px]">
+            <MagneticWrapper className="w-[350px]">
             <FancyButton text="Contact us" icon={<FaArrowRightLong />} />
-            </div>
+            </MagneticWrapper>
+            <MagneticWrapper>
+              <ScrollDown/>
+            </MagneticWrapper>
+            <LiveClock timeZone="Africa/Cairo"/>
           </Card>
         </div>
 

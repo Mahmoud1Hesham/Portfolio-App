@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "moment-timezone": "^0.5.46",
+    "motion": "^11.11.17",
     "next": "15.0.1",
     "react": "19.0.0-rc-69d4b800-20241021",
     "react-animated-cursor": "^2.11.2",
