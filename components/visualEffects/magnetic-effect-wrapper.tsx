@@ -28,7 +28,7 @@ const MagneticWrapper: FC<MagnetaicWrapperPorps> = ({ className, children }) => 
         <motion.div className={cn('relative', className)}
             ref={ref}
             animate={{ x, y }}
-            transition={{ type: 'spring', stiffness: 150, damping: 15, mass: 0.1 }}
+            transition={{ type: 'spring', stiffness: 200, damping: 15, mass: 0.1 }}
             onMouseMove={handleMouse}
             onMouseLeave={reset}
         >{children}</motion.div>
