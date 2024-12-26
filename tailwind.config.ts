@@ -10,8 +10,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        Oswald: 'var(--font-oswald)',
-        pixel: 'var(--font-pixel)',
+        oswald: ['var(--font-oswald)'],
+        pixel: ['var(--font-pixel)'],
+        MainFont: ['var(--font-bri)'],
       },
       screens: { xs: "520px", "2xl": "1400px" },
       colors: {

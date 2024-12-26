@@ -8,7 +8,7 @@ import { FaArrowRight } from 'react-icons/fa6'
 
 export default function LandingSection() {
     return (
-        <div className='relative h-screen overflow-hidden p-8'>
+        <div className='relative h-screen overflow-hidden p-8 font-MainFont'>
             {/* Header */}
             <Header />
             {/* show magnetic fansy button on small screens and hide it on medium screens  */}

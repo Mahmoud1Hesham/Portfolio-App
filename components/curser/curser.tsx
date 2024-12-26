@@ -24,7 +24,7 @@ return <>
         border: `1px solid ${color}`
     }}
     clickables={[
-        'a','input','select','button','.curhov'
+        'a','input','select','button','.curhov','.link'
     ]}
 />
 

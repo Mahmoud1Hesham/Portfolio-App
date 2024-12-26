@@ -15,6 +15,8 @@ import LiveClock from "@/components/ui/liveclock";
 import MagneticWrapper from "@/components/visualEffects/magnetic-effect-wrapper";
 import ScrollDown from "@/components/ui/scroll-down";
 import LandingSection from "@/sections/landing";
+import FeaturedSection from "@/sections/featured";
+
 export default function Home() {
   return <>
 
@@ -22,9 +24,10 @@ export default function Home() {
 
       {() => 
       
-      <div>
+      <div className="pb-8">
       
         <LandingSection/>
+        <FeaturedSection/>
       
       </div>
       
